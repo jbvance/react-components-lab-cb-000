@@ -20,9 +20,9 @@ class OlderCoaster {
 class InFrontOfYou {
   render() {
     <div>
-  <p>You shouldnt look too far.</p>
-  <p>Sometimes, the solution is right in front of you.</p>
-</div>
+      <p>You shouldnt look too far.</p>
+      <p>Sometimes, the solution is right in front of you.</p>
+    </div>
   }
 }
 
