@@ -34,10 +34,14 @@ class ButherShop {
       <p>Hello! We have the following products for sale today:</p>
       <ul>
         {BUTCHER_PRODUCTS.map((item, i) => {
-          return <li key={i}>{item}</li>
+          return (
+            <li key={i}>
+              {item}
+            </li>
+          );
         })}
       </ul>
-    </div>
+    </div>;
   }
 }
 
